@@ -5,7 +5,7 @@ LABEL authors="KYEWON SEO <k@bluehack.net>"
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-RUN apk add --update nodejs bash git
+RUN apk add --update nodejs
 
 COPY package.json /usr/src/app/
 RUN npm install
