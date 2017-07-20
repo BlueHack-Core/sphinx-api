@@ -1,0 +1,8 @@
+{
+  "github": {
+    "clientID": "<your clientID>",
+    "clientSecret": "<your clientSecret>",
+    "callbackURL": "<your callbackURL>",
+    "accessToken": "<your accessToken>"
+  }
+}
