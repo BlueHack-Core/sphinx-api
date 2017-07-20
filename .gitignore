@@ -133,4 +133,7 @@ fabric.properties
 utils/env.js
 
 # Package-lock.json
-.package-lock.json
+package-lock.json
+
+# config.json/
+config.json

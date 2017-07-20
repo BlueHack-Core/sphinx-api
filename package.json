@@ -1,5 +1,5 @@
 {
-  "name": "Sphinx",
+  "name": "sphinx-api",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,27 +9,34 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kyewonseo/Sphinx.git"
+    "url": "git+https://github.com/kyewonseo/sphinx-api.git"
   },
   "keywords": [
     "Sphinx",
+    "sphinx-api",
+    "sphinx-js",
     "oauth"
   ],
   "author": "k@bluehack.net",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kyewonseo/Sphinx/issues"
+    "url": "https://github.com/kyewonseo/sphinx-api/issues"
   },
-  "homepage": "https://github.com/kyewonseo/Sphinx#readme",
+  "homepage": "https://github.com/kyewonseo/sphinx-api#readme",
   "dependencies": {
     "aws-sdk": "^2.77.0",
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
     "debug": "^2.6.8",
     "express": "^4.15.3",
+    "express-session": "^1.15.3",
     "fs": "0.0.1-security",
     "jade": "^1.11.0",
+    "localStorage": "^1.0.3",
     "morgan": "^1.8.2",
+    "passport": "^0.3.2",
+    "passport-github": "^1.1.0",
     "pug": "^2.0.0-rc.2",
     "request": "^2.81.0",
     "serve-favicon": "^2.4.3"
