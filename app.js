@@ -1,5 +1,4 @@
 var express = require('express');
-var cors = require('cors');
 var path = require('path');
 //var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -13,13 +12,6 @@ var oauthGithub = require('./routes/passport/github/github');
 var oauthGithubCallback = require('./routes/passport/github/githubCallback');
 
 var app = express();
-// app.use(cors());
-app.use(function (req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-    next();
-})
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');

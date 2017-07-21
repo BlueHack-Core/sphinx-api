@@ -122,7 +122,7 @@ $(document).ready(function($){
   });
 
   // Scroll detecting navigation
-  lastScroll = 0;
+  var lastScroll = 0;
   $(window).on('scroll',function() {
     var scroll = $(window).scrollTop();
     if(lastScroll - scroll > 0) {
