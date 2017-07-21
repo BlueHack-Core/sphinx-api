@@ -117,9 +117,19 @@ $(document).ready(function($){
     }
   });
 
-  $('.page-third button:enabled').click(function(){
-    window.location.href = './project.html';
-  });
+  // $('.page-third button:enabled').click(function(){
+  //   window.location.href = './project.html';
+  // });
+
+  /* ---------- Onclick login buttons ----------- */
+  $('#btn-login-github').click( function() {
+    window.location.href = 'http://login.apiway.io/auth/github';
+  })
+
+  $('#btn-login-bitbucket').click( function() {
+    // navigate to bitbucket login page
+    console.log('btn-login-bitbucket clicked.')
+  })
 
   // Scroll detecting navigation
   var lastScroll = 0;
