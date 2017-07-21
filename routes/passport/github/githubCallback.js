@@ -11,8 +11,9 @@ router.get('/',
         // Successful authentication, redirect home.
         var accessToken = config.github.accessToken;
         console.log('config accessToken =>' + accessToken);
+        console.log(res)
 
-        res.redirect('http://apiway.io/login/'+ {accessToken:accessToken});
+        res.redirect('http://apiway.io/?accessToken=' + accessToken);
     });
 
 module.exports = router;

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="567px" height="109px" viewBox="0 0 567 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.061617e-15%" y1="50%" x2="98.9696269%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#2657EB" offset="0%"></stop>
+            <stop stop-color="#EF69AF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="36" cy="36" r="36"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD">
+            <g id="Group-10">
+                <g id="Group-13" transform="translate(0.000000, 20.000000)">
+                    <path d="M8,2.00138927 C8,0.896052496 8.8984375,0 9.99749826,0 L86.0025017,0 C87.1056896,0 88,0.894938439 88,2.00138927 L88,48 L8,48 L8,2.00138927 Z M0,62 L96,62 L96,68 L0,68 L0,62 Z M8,48 L88,48 L96,62 L0,62 L8,48 Z" id="Combined-Shape" stroke="#5E6C8C" stroke-width="2" opacity="0.200000003" stroke-linejoin="round"></path>
+                    <path d="M13,5.9968754 C13,5.44631632 13.4470062,5 14.0029907,5 L81.9970093,5 C82.5509458,5 83,5.45323029 83,5.9968754 L83,42.0031246 C83,42.5536837 82.5529938,43 81.9970093,43 L14.0029907,43 C13.4490542,43 13,42.5467697 13,42.0031246 L13,5.9968754 Z M38,10 L28,38 L32,38 L42,10 L38,10 Z M18,10 L18,38 L24,38 L34,10 L18,10 Z" id="Combined-Shape" fill="url(#linearGradient-1)" opacity="0.400000006"></path>
+                </g>
+                <g id="Group-13" transform="translate(470.000000, 20.000000)">
+                    <path d="M8,2.00138927 C8,0.896052496 8.8984375,0 9.99749826,0 L86.0025017,0 C87.1056896,0 88,0.894938439 88,2.00138927 L88,48 L8,48 L8,2.00138927 Z M0,62 L96,62 L96,68 L0,68 L0,62 Z M8,48 L88,48 L96,62 L0,62 L8,48 Z" id="Combined-Shape" stroke="#5E6C8C" stroke-width="2" opacity="0.200000003" stroke-linejoin="round"></path>
+                    <path d="M13,5.9968754 C13,5.44631632 13.4470062,5 14.0029907,5 L81.9970093,5 C82.5509458,5 83,5.45323029 83,5.9968754 L83,42.0031246 C83,42.5536837 82.5529938,43 81.9970093,43 L14.0029907,43 C13.4490542,43 13,42.5467697 13,42.0031246 L13,5.9968754 Z M38,10 L28,38 L32,38 L42,10 L38,10 Z M18,10 L18,38 L24,38 L34,10 L18,10 Z" id="Combined-Shape" fill="url(#linearGradient-1)" opacity="0.400000006"></path>
+                </g>
+                <g id="Group-12" transform="translate(247.000000, 0.000000)">
+                    <g id="Group-9" opacity="0.200000003" transform="translate(6.000000, 84.000000)">
+                        <path d="M0,10 L60,10 L60,24 L0,24 L0,10 Z M10,2.21517249e-13 L50,1.07858167e-13 L60,10 L-8.27116153e-14,10 L10,2.21517249e-13 Z" id="Combined-Shape" stroke="#5E6C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M54,19 C52.8954305,19 52,18.1045695 52,17 C52,15.8954305 52.8954305,15 54,15 C55.1045695,15 56,15.8954305 56,17 C56,18.1045695 55.1045695,19 54,19 Z M48,19 C46.8954305,19 46,18.1045695 46,17 C46,15.8954305 46.8954305,15 48,15 C49.1045695,15 50,15.8954305 50,17 C50,18.1045695 49.1045695,19 48,19 Z M42,19 C40.8954305,19 40,18.1045695 40,17 C40,15.8954305 40.8954305,15 42,15 C43.1045695,15 44,15.8954305 44,17 C44,18.1045695 43.1045695,19 42,19 Z" id="Combined-Shape" fill="#5E6C8C"></path>
+                    </g>
+                    <g id="Group-11" opacity="0.400000006">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Oval-8" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <path d="M18.25,36 L14.5,48 L7,48 L14.5,24 L18.25,24 L22,24 L29.5,48 L22,48 L18.25,36 Z M37,48 L33.25,48 L25.75,24 L33.25,24 L37,36 L40.75,24 L44.5,24 L48.25,24 L52.75,38.4 L57.25,24 L64.75,24 L57.25,48 L52.75,48 L48.25,48 L44.5,36 L40.75,48 L37,48 Z" id="Combined-Shape" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                    </g>
+                </g>
+                <path d="M438,54 L358,54" id="Line" stroke="#5E6C8C" stroke-width="2" opacity="0.200000003" stroke-linecap="square" stroke-dasharray="6"></path>
+                <path d="M208,54 L128,54" id="Line" stroke="#5E6C8C" stroke-width="2" opacity="0.200000003" stroke-linecap="square" stroke-dasharray="6"></path>
+            </g>
+        </g>
+    </g>
+</svg>
