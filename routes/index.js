@@ -5,7 +5,9 @@ var path    = require("path");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.sendFile(path.join(__dirname+'/../static/login.html'))
+  console.log(req)
+  res.json({hello: "sphinx"})
+  // res.sendFile(path.join(__dirname+'/../static/login.html'))
 });
 
 router.get('/login', function(req, res, next) {

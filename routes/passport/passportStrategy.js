@@ -5,9 +5,9 @@ var config = require('./../../config.json');
 
 
 exports.githubStrategy = new GitHubStrategy({
-        clientID: config.github.clientID,
-        clientSecret: config.github.clientSecret,
-        callbackURL: config.github.callbackURL
+        clientID: process.env.GITHUB_CLIENTID,
+        clientSecret: process.env.GITHUB_CLIENTSECRET,
+        callbackURL: process.env.GITHUB_CALLBACKURL
     },
     function (accessToken, refreshToken, profile, done) {
 

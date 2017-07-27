@@ -13,7 +13,8 @@ router.get('/',
         console.log('config accessToken =>' + accessToken);
         console.log(res)
 
-        res.redirect('http://apiway.io/?accessToken=' + accessToken);
+        var redirectUrl = process.env.GITHUB_REDIRECTURL
+        res.redirect(redirectUrl + '/?accessToken=' + accessToken);
     });
 
 module.exports = router;
