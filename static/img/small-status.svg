@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>status-label</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="status-label" stroke-width="1.5" stroke="#FFFFFF">
+            <polyline id="Line" points="1 20 9 20 10.8025751 14.6 14.4077253 27.2 18.0128755 11 21.6180258 29 25.223176 12.8 28.8283262 25.4 30.6309013 20 39 20"></polyline>
+        </g>
+    </g>
+</svg>

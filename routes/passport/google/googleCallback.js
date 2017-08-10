@@ -6,15 +6,13 @@ var passport = require('passport');
 var config = require('./../../../config.json');
 
 router.get('/',
-    passport.authenticate('github', {failureRedirect: '/'}),
-    function (req, res) {
-        // Successful authentication, redirect home.
-        var accessToken = config.github.accessToken;
+    passport.authenticate('google', { failureRedirect: '/' }),
+    function(req, res) {
+        var accessToken = config.google.accessToken;
         console.log('config accessToken =>' + accessToken);
         console.log(res)
 
-        var redirectUrl = process.env.GITHUB_REDIRECTURL
-        //var redirectUrl = config.github.callbackURL
+        var redirectUrl = process.env.GOOGLE_REDIRECTURL
         res.redirect(redirectUrl + '/?accessToken=' + accessToken);
     });
 

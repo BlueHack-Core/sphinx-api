@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search" stroke="#000000" stroke-width="2">
+            <circle id="Oval-2" cx="14.5" cy="14.5" r="4.5"></circle>
+            <path d="M17.965279,17.965279 L21.5827625,21.5827625" id="Line" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

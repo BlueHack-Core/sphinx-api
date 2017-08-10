@@ -1,5 +1,4 @@
 var express = require('express');
-var cors = require('cors');
 var path = require('path');
 //var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -11,18 +10,13 @@ var index = require('./routes/index');
 var config = require('./config.json');
 var oauthGithub = require('./routes/passport/github/github');
 var oauthGithubCallback = require('./routes/passport/github/githubCallback');
+var oauthGoogle = require('./routes/passport/google/google');
+var oauthGoogleCallback = require('./routes/passport/google/googleCallback');
 
 var app = express();
-// app.use(cors());
-app.use(function (req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-    next();
-})
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
@@ -64,9 +58,14 @@ passport.deserializeUser(function(obj, done) {
   done(null, obj);
 });
 
+app.use(express.static(__dirname + '/static'));
+
 app.use('/', index);
-app.use('/apiway/oauth/github', oauthGithub);
-app.use('/apiway/oauth/github/callback', oauthGithubCallback);
+app.use('/auth/github', oauthGithub);
+app.use('/auth/github/callback', oauthGithubCallback);
+app.use('/auth/google', oauthGoogle);
+app.use('/auth/google/callback', oauthGoogleCallback);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
