@@ -10,6 +10,8 @@ var index = require('./routes/index');
 var config = require('./config.json');
 var oauthGithub = require('./routes/passport/github/github');
 var oauthGithubCallback = require('./routes/passport/github/githubCallback');
+var oauthGoogle = require('./routes/passport/google/google');
+var oauthGoogleCallback = require('./routes/passport/google/googleCallback');
 
 var app = express();
 // view engine setup
@@ -61,6 +63,8 @@ app.use(express.static(__dirname + '/static'));
 app.use('/', index);
 app.use('/auth/github', oauthGithub);
 app.use('/auth/github/callback', oauthGithubCallback);
+app.use('/auth/google', oauthGoogle);
+app.use('/auth/google/callback', oauthGoogleCallback);
 
 
 // catch 404 and forward to error handler
