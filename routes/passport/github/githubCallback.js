@@ -15,7 +15,7 @@ router.get('/',
 
         var redirectUrl = process.env.GITHUB_REDIRECTURL
         //var redirectUrl = config.github.callbackURL
-        res.redirect(redirectUrl + '/?accessToken=' + accessToken);
+        res.redirect(redirectUrl + '/?provider=github&accessToken=' + accessToken);
     });
 
 module.exports = router;

@@ -13,7 +13,7 @@ router.get('/',
         console.log(res)
 
         var redirectUrl = process.env.GOOGLE_REDIRECTURL
-        res.redirect(redirectUrl + '/?accessToken=' + accessToken);
+        res.redirect(redirectUrl + '/?provider=google&accessToken=' + accessToken);
     });
 
 module.exports = router;
