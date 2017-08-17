@@ -4,5 +4,11 @@
     "clientSecret": "<your clientSecret>",
     "callbackURL": "<your callbackURL>",
     "accessToken": "<your accessToken>"
+  },
+  "google": {
+    "clientID": "<your clientID>",
+    "clientSecret": "<your clientSecret>",
+    "callbackURL": "<your callbackURL>",
+    "accessToken": "<your accessToken>"
   }
 }
